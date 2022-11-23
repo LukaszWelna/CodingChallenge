@@ -30,7 +30,7 @@ Steps to run project locally:
 - Install required dependecies by running command `pip install -r requirements.txt`
 - If you wish to run unit tests run command `pip install -r requirements_dev.txt`
 - Run application by command `python -m uvicorn main:app`
-- You can view available endpoints at `localhost:80/docs`
+- You can view available endpoints at `localhost:8000/docs`
 
 Steps to run project with Docker:
 - Install docker in your system.
