@@ -30,12 +30,14 @@ Steps to run project locally:
 - Install required dependecies by running command `pip install -r requirements.txt`
 - If you wish to run unit tests run command `pip install -r requirements_dev.txt`
 - Run application by command `python -m uvicorn main:app`
+- You can view available endpoints at `localhost:80/docs`
 
 Steps to run project with Docker:
 - Install docker in your system.
 - Download docker image via command `docker pull lukaszwelna/coding_challenge:v1.1`
 - Run application by command `docker run -p 80:80 lukaszwelna/coding_challenge:v1.1`
 - Application is accessible in localhost port 80
+- You can view available endpoints at `localhost:80/docs`
 
 ## Docker
 Building docker image:
